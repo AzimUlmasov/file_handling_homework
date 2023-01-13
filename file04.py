@@ -8,7 +8,7 @@ def main(data:str):
     """
     ans = []
     for num in data:
-        if num.isalpha():
+        if not num.isdigit():
             ans.append(num)
     return ans    
 # Read data from file
