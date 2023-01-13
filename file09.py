@@ -9,7 +9,7 @@ def main(data:str):
     lst = []
     for i in data:
         if i.isdigit():
-            lst.append(i)
+            lst.append(int(i))
     
     return min(lst)
 
